@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/date.css"/>
+    <link rel="stylesheet" href="css/popup.css"/>
+    <link rel="stylesheet" href="css/todo.css"/>
+    <link rel="stylesheet" href="css/greeting.css"/>
+    <link rel="stylesheet" href="css/calendar.css"/>
+    <link rel="stylesheet" href="css/button.css"/>
+    <link rel="styleshhet" href="css/weather.css"/>
+    <title>CapStone ToDo Main</title>
+</head>
+
+<body>
+    <span class="js-weather"></span>
+    <span class="js-popup" onclick="openPopupWindow()">사이트 차단</span>
+    <div class="MainContainer">
+        <div class="js-clock">
+            <h1>00:00</h1>
+        </div>
+
+    <form class="js-form form">
+        <input type="text" placeholder="이름을 입력해주세요." required />
+    </form>
+    <h4 class="js-grettings grettings"></h4>
+    <form class="js-toDoForm">
+        <input type="text" id="inputTodo" name="inputTodo" placeholder="해야할 일을 적어주세요." required autocomplete="off"/>
+    </form>
+    <div class="TodoButton">
+        <button class="AllClearButton" onclick="AllClear()">모두 지우기</button>
+        <button class="CalendarPopUpButton" onclick="openCalndarPopupWindow()">알림 설정</button>
+    </div>
+
+    <ul class="js-toDoList list">
+        <text></text>
+    </ul>
+        
+    <script src="js/clock.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/button.js"></script>
+    <script src="js/showAlram.js"></script>
+    <script src="js/weather.js"></script>
+
+    <div class="copycontainer">
+        <a class="copyright" href="#" onclick="copyright()">Team Int.</a>
+    </div>
+</body>
+
+</html>

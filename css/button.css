@@ -1,0 +1,147 @@
+/* GENERAL BUTTON STYLING */
+
+/*추가 버튼*/
+.addTaskButton {
+	-moz-box-shadow:inset 0px 39px 0px -24px #3dc21b;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #3dc21b;
+	box-shadow:inset 0px 39px 0px -24px #3dc21b;
+	background-color:#44c767;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	padding:4px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.addTaskButton:hover {
+	background-color:#3dc21b;
+}
+.addTaskButton:active {
+	position:relative;
+    top:1px;
+}
+
+.js-Exit {
+	-moz-box-shadow:inset 0px 39px 0px -24px #3dc21b;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #3dc21b;
+	box-shadow:inset 0px 39px 0px -24px #3dc21b;
+	background-color:#44c767;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	padding:4px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.js-Exit:hover {
+	background-color:#3dc21b;
+}
+.js-Exit:active {
+	position:relative;
+    top:1px;
+}
+
+/*완료된 항목 삭제 버튼 */
+.ClearButton {
+	-moz-box-shadow:inset 0px 39px 0px -24px #e6b873;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e6b873;
+	box-shadow:inset 0px 39px 0px -24px #e6b873;
+	background-color:#e3a25d;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	padding:4px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b87625;
+}
+.ClearButton:hover {
+	background-color:#ebbc5e;
+}
+.ClearButton:active {
+	position:relative;
+    top:1px;
+}
+
+/*전체 삭제 버튼 */
+
+.AllClearButton {
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	padding:4px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.AllClearButton:hover {
+	background-color:#e67a73;
+}
+.AllClearButton:active {
+	position:relative;
+	top:1px;
+}
+
+.CalendarPopUpButton {
+	-moz-box-shadow:inset 0px 39px 0px -24px #6153e0;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #6153e0;
+	box-shadow:inset 0px 39px 0px -24px #6153e0;
+	background-color:#4738cf;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	padding:4px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d35b2;
+}
+
+.CalendarPopUpButton:hover {
+	background-color:#6153e0;
+}
+.CalendarPopUpButton:active {
+	position:relative;
+	top:1px;
+}
+
+.del-button {
+    background: url("../images/delete.png");
+    border: 0px;
+    width: 17px;  
+    height: 17px;
+    cursor: pointer;
+    margin-left : 10px;
+}
+
+.rev-button {
+    background: url("../images/revies.png");
+    border: 0px;
+    width: 17px;  
+    height: 17px;
+    cursor: pointer;
+    margin-left : 10px;
+}
+
+.bell-image{
+	background : url("../images/bell.png");
+    border: 0px;
+    width: 17px;  
+    height: 17px;
+	margin-left : 10px;
+}

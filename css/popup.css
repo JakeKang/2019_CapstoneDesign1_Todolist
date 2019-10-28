@@ -1,0 +1,21 @@
+.js-popup {
+    font-size: 20px;
+    text-shadow: 2px 2px 2px gray;
+    float: right;
+    position: absolute;
+    right: 25px;
+    cursor: pointer;
+    color: #fff;
+    top: 25px;
+}
+
+.js-reset {
+    font-size: 20px;
+    text-shadow: 2px 2px 2px gray;
+    float: left;
+    position: absolute;
+    left: 25px;
+    cursor: pointer;
+    color: #fff;
+    top: 25px;
+}

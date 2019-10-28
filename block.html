@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>차단 목록</title>
+    <link rel="stylesheet" href="css/block.css"/>
+    <link rel="stylesheet" href="css/button.css"/>
+    <script src="js/block.js"></script>
+</head>
+<body>
+
+    <div class=blocktop>
+        <h2>차단 목록</h2>
+    </div>
+
+    <p>차단할 사이트의 주소를 한 줄씩 입력하세요.</p>
+    <textarea class="noresize" id="blacklist" rows=10 cols=50 autofocus="autofocus" placeholder="ex) naver.com"></textarea>
+    <br />
+    <div class="blockmid">
+    활성화 : <input id="enabled" type="checkbox"/>
+    <button class="addTaskButton" onclick="ClosePopupWindow()">닫기</button>
+    <script src="js/block.js"></script>
+</div>
+</body>
+
+</html>

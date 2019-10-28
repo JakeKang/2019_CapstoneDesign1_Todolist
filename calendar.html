@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>알람 설정</title>
+    <link rel="stylesheet" href="css/calendar.css"/>
+    <link rel="stylesheet" href="css/block.css"/>
+    <link rel="stylesheet" href="css/button.css"/>
+</head>
+<body>
+    <div class="CalendarContainer" id="CalendarBox">
+        <div class="js-year"></div>
+        <table class="js-Calendar" border=1>
+            <thead>
+                <tr>
+                    <th class="Sun">일</th>
+                    <th>월</th>
+                    <th>화</th>
+                    <th>수</th>
+                    <th>목</th>
+                    <th>금</th>
+                    <th class="Sat">토</th>
+                </tr>
+            </thead>
+            <tbody class="js-day">               
+            </tbody>            
+        </table>
+        <select class="js-hour">
+                <option selected>00</option>
+                </select>
+                <select class="js-min">
+                <option selected>00</option>
+            </select>
+        </div>
+    <input type="button" value="닫기" class="js-Exit"/>
+
+    <script src="js/calendar.js"></script>
+    <script src="js/timeselect.js"></script>
+    <script src="js/saveday.js"></script>
+    <script src="js/calButton.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+.js-Calendar{
+    border: 1px solid #1b1b1b;
+    color: #1b1b1b;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-collapse:collapse;
+    background-color: #fff;
+    text-align: center;
+}
+
+.AlarmLable {
+    font-size: 15px;
+    color: white;
+}
+
+.CalendarContainer{
+    position: absolute;
+    margin-top:10px;
+    font-size : 15px;
+    text-align: center;
+    height: auto;
+    width: 200px;
+    -webkit-appearance: none;
+    z-index: 1000;
+}
+
+.js-year{
+	color: #fff;
+	font-size: 15px;
+	border: solid #fff 0px;
+    text-decoration: none;
+}
+
+.js-year:hover{
+	text-decoration: none;
+}
+
+.CalButton {
+    border-color: transparent;
+    border: none;
+    color: #1b1b1b;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+.moveButton {
+    border-color: transparent;
+    border: none;
+    color: #fff;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+.Sun {
+    color: red;
+}
+
+.Sat {
+    color: blue;
+}

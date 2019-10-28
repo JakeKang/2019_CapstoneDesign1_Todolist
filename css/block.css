@@ -1,0 +1,25 @@
+h2 {
+    font-size : 25px;
+}
+
+.blockmid {
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+body {
+    background-color: #2d3e50;
+    color : white;
+}
+
+.noresize {
+    resize: none; /* 사용자 임의 변경 불가 */
+    resize: both; /* 사용자 변경이 모두 가능 */
+    resize: horizontal; /* 좌우만 가능 */
+    resize: vertical; /* 상하만 가능 */
+}
+
+.blockmid button {
+    float: right;
+    width: 50px;
+}
